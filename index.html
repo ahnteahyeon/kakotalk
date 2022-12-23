@@ -6,8 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>카카오톡</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d3dfed0ee3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div id="page"></div>
+    <div id="page">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__icon network-agency">
+            <i class="fa-brands fa-html5"></i>
+          </span>
+          <time class="status-bar__time" datetime="2022-12-23">17:33</time>
+          <ul class="status-bar__alert-list">
+            <li class="status-bar__alert-item">
+              <span class="status-bar__alert-icon">
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </li>
+            <li class="status-bar__alert-item">
+              <span class="status-bar__alert-icon">
+                <i class="fa-brands fa-facebook-messenger"></i>
+              </span>
+            </li>
+            <li class="status-bar__alert-item">
+              <span class="status-bar__alert-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </li>
+            <li class="status-bar__alert-item">
+              <span class="status-bar__alert-icon">
+                <i class="fa-brands fa-slack"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="status-bar__column">
+          <span class="status-bar__icon network-connection">
+            <i class="fa-solid fa-wifi"></i>
+          </span>
+          <div class="status-bar__battery">
+            <span class="status-bar__battery-number">50</span>
+            <span class="status-bar__battery-icon">
+              <i class="fa-solid fa-battery-half"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
