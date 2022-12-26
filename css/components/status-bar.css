@@ -9,6 +9,7 @@
   padding: 15px 30px;
   color: var(--dark-gray);
   background-color: var(--white);
+  z-index: 999;
 }
 
 .status-bar__column,
