@@ -1,0 +1,33 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: var(--dark-gray);
+  background-color: var(--white);
+}
+
+.status-bar__column,
+.status-bar__alert-list {
+  gap: 5px;
+}
+
+.status-bar__column,
+.status-bar__alert-list {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__time,
+.status-bar__battery-number {
+  font-size: 15px;
+}
+
+.status-bar__battery-number:after {
+  content: "%";
+  margin-left: 1px;
+}
