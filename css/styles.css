@@ -6,3 +6,6 @@
 
 /* Components */
 @import "components/status-bar.css";
+
+/* Pages */
+@import "pages/login.css";
