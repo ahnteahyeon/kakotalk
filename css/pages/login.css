@@ -3,6 +3,20 @@
   flex-direction: column;
 }
 
-.login .account-input {
-  margin-bottom: 10px;
+.login .account-input,
+.login .account-btn {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.login .account-input:nth-child(2) {
+  margin-bottom: 35px;
+}
+
+.login .account-btn {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login .account-btn:hover {
+  background-color: var(--signiture-yellow);
 }

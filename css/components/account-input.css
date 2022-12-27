@@ -1,6 +1,5 @@
 .account-input {
   padding: 15px 0;
-  font-size: 18px;
   border-bottom: 1px solid var(--grey);
   transition: border-color 0.2s ease-in-out;
 }
