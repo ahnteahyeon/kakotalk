@@ -1,0 +1,107 @@
+.register .terms-of-service {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms-of-service__header,
+.terms-of-service__item {
+  padding: 15px 0;
+}
+
+.terms-of-service__header-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.terms-of-service__header-title,
+.terms-of-service__item-top {
+  margin-bottom: 10px;
+}
+
+.terms-of-service__list {
+  margin-bottom: 15px;
+}
+
+.terms-of-service__header-desc,
+.terms-of-service__item-desc {
+  padding-right: 50px;
+  color: #8b8b8b;
+}
+
+.terms-of-service__header,
+.terms-of-service__item,
+.terms-of-service__item-top {
+  display: flex;
+}
+
+.terms-of-service__item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms-of-service__item {
+  border-top: 1px solid #f2f2f2;
+}
+
+.terms-of-service__item-column:nth-child(2) {
+  width: 100%;
+}
+
+.terms-of-service__item-top {
+  justify-content: space-between;
+}
+
+.terms-of-service__header-column:first-child,
+.terms-of-service__item-column:first-child {
+  margin-right: 10px;
+}
+
+.register .account-btn {
+  margin-bottom: 15px;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.register .account-btn:hover {
+  background-color: var(--signiture-yellow);
+}
+
+.register .account-link {
+  margin: 0 auto;
+  color: var(--black);
+}
+
+.terms-of-service__header-btn,
+.terms-of-service__item-btn {
+  opacity: 0;
+}
+
+.register label {
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.terms-of-service__header,
+.terms-of-service__item {
+  position: relative;
+}
+
+.terms-of-service__header label,
+.terms-of-service__item label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.terms-of-service__header label i {
+  font-size: 20px;
+}
+
+.terms-of-service__item label i {
+  font-size: 16px;
+}
+
+.terms-of-service__header-btn:checked + label,
+.terms-of-service__item-btn:checked + label {
+  color: var(--black);
+}

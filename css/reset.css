@@ -145,3 +145,9 @@ a {
 .a:visited {
   color: var(--signiture-brown);
 }
+
+button {
+  font: inherit;
+  border: none;
+  background-color: transparent;
+}
