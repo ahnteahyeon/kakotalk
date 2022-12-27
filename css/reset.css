@@ -142,3 +142,11 @@ button {
   border: none;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+}
+
+.a:visited {
+  color: var(--signiture-brown);
+}

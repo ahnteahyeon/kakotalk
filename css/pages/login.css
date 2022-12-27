@@ -20,3 +20,8 @@
 .login .account-btn:hover {
   background-color: var(--signiture-yellow);
 }
+
+.login .account-link {
+  margin: 0 auto;
+  color: var(--black);
+}
