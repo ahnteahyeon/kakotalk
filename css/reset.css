@@ -128,3 +128,11 @@ table {
 *:before {
   box-sizing: border-box;
 }
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
