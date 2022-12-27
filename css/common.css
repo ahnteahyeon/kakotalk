@@ -4,3 +4,10 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   user-select: none;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  padding-top: var(--status-bar-height);
+}
