@@ -137,13 +137,8 @@ input:focus {
   outline: none;
 }
 
-button {
-  font: inherit;
-  border: none;
-  cursor: pointer;
-}
-
 a {
+  color: var(--black);
   text-decoration: none;
 }
 
